@@ -1,9 +1,10 @@
 import React from 'react';
+import "./components.css"
 
 const Projects=()=> {
     return (
       <div className='component projects'>
-        <h2 style={{ margin: "auto" }}>projects</h2>
+        <h1>projects</h1>
       </div>
     );
   }

@@ -5,55 +5,6 @@ html, body {
   overflow: hidden;
 }
 
-.title {
-  margin: 20px auto 0;
-  text-align: center;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-}
-
-.links .link {
-  margin-top: 20px;
-}
-
-.component {
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
-.component.first-component {
-  background-color: gray;
-  position: relative;
-}
-
-.first-component--inside-scroller {
-  position: absolute;
-  right: 20px;
-  top: 100px;
-}
-
-.component.info {
-  background-color: violet;
-}
-
-.component.landing {
-  background: linear-gradient(233deg, rgba(71,242,245,1) 0%, rgba(94,13,158,1) 0%, rgba(159,57,151,1) 100%);
-}
-
-.component.projects {
-  background-color: cyan;
-}
-.component.landing h1 {
-  color: white;
-  margin: auto;
-  text-align: center;
-}
-
 h2 {
   margin: auto;
   text-align: center;
@@ -70,18 +21,6 @@ h2 {
 
 .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
   margin-right: 50px;
-}
-
-.demo-page-contain {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-}
-
-.demo-page-contain__hint {
-  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
