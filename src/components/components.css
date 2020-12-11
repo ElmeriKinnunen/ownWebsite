@@ -58,6 +58,7 @@
     margin: auto 50px auto 50px;
     justify-content: center;
     height: 50%;
+    max-height: 600px;
     min-width: 200px;
     padding: 3px 10px 3px 10px;
     -ms-flex: 1;
