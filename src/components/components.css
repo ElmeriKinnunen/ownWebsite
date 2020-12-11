@@ -19,17 +19,15 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color:rgb(255, 255, 255);
-   
 }
 
 .component.landing h1 {
     color: black;
-    margin: 0px 100px 0px 0px;
+    margin: 0px 20% 0px 0px;
     text-align: right;
     font-size: 100px;
     font-family:'Major Mono Display', monospace;
 }
-
 
 /* ---------INFO SECTION-------------------- */
 
@@ -37,12 +35,6 @@
     background: linear-gradient(233deg, rgba(71,242,245,1) 0%, rgba(94,13,158,1) 0%, rgba(159,57,151,1) 100%);
     display: flex;
     flex-direction: row;
-}
-
-@media (max-width: 800px){
-    .component.info{
-        flex-direction: column;
-    }
 }
 
 .component.info h1 {
@@ -101,3 +93,17 @@
     text-align: center;
 }
   
+@media (max-width: 1150px){
+    .component.info{
+        flex-direction: column;
+    }
+
+    .component.landing h1{
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .textBox{
+        margin: 20px
+    }
+}
