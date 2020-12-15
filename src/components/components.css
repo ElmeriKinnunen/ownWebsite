@@ -7,8 +7,8 @@
   
 /* ------------LANDING SECTION------------- */
 
-.component.landing img{
-    height: 15%;
+.logo {
+    height: 10vh;
     padding: 10px;
     margin: 50px;
     opacity: 80%;
@@ -21,23 +21,31 @@
     background-color:rgb(255, 255, 255);
 }
 
-.component.landing h1 {
-    color: black;
-    margin: 0px 20% 0px 0px;
-    text-align: right;
-    font-size: 100px;
-    font-family:'Major Mono Display', monospace;
-}
 
 /* ---------INFO SECTION-------------------- */
 
+
 .component.info {
     background: linear-gradient(233deg, rgba(71,242,245,1) 0%, rgba(94,13,158,1) 0%, rgba(159,57,151,1) 100%);
+    margin: auto;
+}
+
+.infoHeader h1 {
+    color: black;
+    font-size: 10vh;
+    font-family:'Major Mono Display', monospace;
+    text-align: right;
+    margin: auto 50px 100px 50px;
+    padding-top: 50px;
+    
+}
+
+.infoRow{
     display: flex;
     flex-direction: row;
 }
 
-.component.info h1 {
+.infoRow h1 {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: center;
@@ -46,27 +54,27 @@
 .textBox{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    background-color: rgb(255, 255, 255);
     margin: auto 50px auto 50px;
     justify-content: center;
-    height: 50%;
-    max-height: 600px;
-    min-width: 200px;
-    padding: 3px 10px 3px 10px;
+    height: 400px;
+    min-width: 400px;
+    padding: 10px 70px 3px 70px;
     -ms-flex: 1;
     flex: 1;
   }
 
 .textBox h2{
-    color: black;
-    
+    color: rgb(238, 195, 232);
+    font-weight: bold;
     font-size: 30px;
     margin: 5% 0% 10% 0%;
 }
 
 .textBox p{
     font-size: 20px;
-    color: black;
+    color: rgb(238, 195, 232);
+    min-height: 300px;
+    text-align: left;
 }
 
 #leftBox{
