@@ -5,7 +5,7 @@ const Info=()=> {
     return (
       <div className='component info'>
         <div className='infoHeader'>
-                <h1>Elmeri <br/> Kinnunen</h1>
+        <p>created by</p><h1> Elmeri <br/> Kinnunen</h1>
         </div>
         <div className='infoRow'>
           <div className='textBox' id='leftBox'>

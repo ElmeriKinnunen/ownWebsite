@@ -8,19 +8,36 @@
 /* ------------LANDING SECTION------------- */
 
 .logo {
-    height: 10vh;
-    padding: 10px;
-    margin: 50px;
-    opacity: 80%;
+    height: 20vh;
+    margin: auto;
+    margin: 10vh;
 }
 
 .component.landing {
-    background-image: url("./../images/back.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color:rgb(255, 255, 255);
+   /* background-image: url("https://live.staticflickr.com/65535/50517241207_86b2096889_o.jpg");*/
 }
 
+#landingVideo{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    
+}
+    @media (min-aspect-ratio: 16/9) {
+        #landingVideo {
+            width:100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio: 16/9) {
+        #landingVideo { 
+            width:auto;
+            height: 100%;
+        }
+    }
 
 /* ---------INFO SECTION-------------------- */
 
@@ -30,15 +47,43 @@
     margin: auto;
 }
 
+.infoHeader p {
+    color: rgb(54, 2, 85);
+    font-size: 4vh;
+    font-family:'Major Mono Display', monospace;
+    text-align: right;
+    margin: auto 50px 0px 50px;
+    padding-top: 50px;
+}
+
 .infoHeader h1 {
-    color: black;
+    color: rgb(54, 2, 85);
     font-size: 10vh;
     font-family:'Major Mono Display', monospace;
     text-align: right;
     margin: auto 50px 100px 50px;
-    padding-top: 50px;
     
 }
+
+    @media (max-width:400px){
+        .infoHeader p {
+            color: rgb(54, 2, 85);
+            font-size: 3vh;
+            font-family:'Major Mono Display', monospace;
+            text-align: right;
+            margin: auto 50px 0px 50px;
+            padding-top: 50px;
+        }
+        
+        .infoHeader h1 {
+            color: rgb(54, 2, 85);
+            font-size: 6vh;
+            font-family:'Major Mono Display', monospace;
+            text-align: right;
+            margin: auto 50px 50px 50px;
+            
+        }
+    }
 
 .infoRow{
     display: flex;
@@ -92,7 +137,7 @@
 /* -----------PROJECTS SECTION------------- */
 
   .component.projects {
-    background-color: rgb(142, 209, 209);;
+    background-color: rgb(255, 255, 255);;
 }
 
 .component.projects h1 {
@@ -101,8 +146,50 @@
     text-align: center;
 }
   
-@media (max-width: 1150px){
-    .component.info{
+@media (max-width: 1500px){ /* -----------1500 PX------------- */
+    .textBox{
+        margin: auto 10px auto 10px;
+        min-width: 100px;
+    }
+
+    .textBox h2{
+        color: rgb(238, 195, 232);
+        font-weight: bold;
+        font-size: 25px;
+        margin: 5% 0% 10% 0%;
+    }
+    
+    .textBox p{
+        font-size: 18px;
+        color: rgb(238, 195, 232);
+        min-height: 300px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1255px){ /* -----------1255 PX------------- */
+    .textBox{
+        padding: 10px 30px 3px 30px;
+        min-width: 100px;
+    }
+
+    .textBox h2{
+        color: rgb(238, 195, 232);
+        font-weight: bold;
+        font-size: 25px;
+        margin: 5% 0% 10% 0%;
+    }
+    
+    .textBox p{
+        font-size: 18px;
+        color: rgb(238, 195, 232);
+        min-height: 300px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 800px){ /* -----------800 PX------------- */
+    .infoRow{
         flex-direction: column;
     }
 
