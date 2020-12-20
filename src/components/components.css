@@ -6,13 +6,14 @@
     
     width: 35%;
     height: auto;
-    margin: 10vh;
+    margin: 20vh 0 80vh 10vw;
 }
 
 .component.landing {
     background-size: cover;
     background-repeat: no-repeat;
-   /* background-image: url("https://live.staticflickr.com/65535/50517241207_86b2096889_o.jpg");*/
+   /* background-image: url("https://live.staticflickr.com/65535/50517241207_86b2096889_o.jpg");
+   no-repeat center center fixed;*/
 }
 
 #landingVideo{
@@ -20,6 +21,7 @@
     z-index: -1;
     width: 100%;
     height: auto;
+    background-size: cover;
     
 }
     @media (min-aspect-ratio: 16/9) {
@@ -34,6 +36,29 @@
             height: 100%;
         }
     }
+
+/* ------------LANDING BANNER SECTION------------- */
+
+.component.landingBanner{
+    height: auto;
+    max-width: 60vw;
+    background-color: white; 
+    margin: 0 0 40vh 0;
+    margin: auto;
+}
+
+.component.landingBanner p{
+    font-size: 20px;
+    padding: 3vw;
+    margin: 0 0 30vh 0;
+}
+
+.component.landingBanner h1{
+    font-family:'Major Mono Display', monospace;
+    font-size: 9vh;
+    text-align: center;
+
+}
 
 /* ---------INFO SECTION-------------------- */
 
@@ -101,7 +126,7 @@
 /* -----------PROJECTS SECTION------------- */
 
   .component.projects {
-    
+    background-color: white;
     height: 50vh;
 }
 
@@ -176,20 +201,20 @@
     }
 
     .logo {
-        width: 70%;
+        width: 60%;
         height: auto;
-        margin: 40% 0 0 10%;
+        margin: 20vh 0 80vh 10vw;
     }
 
     .infoHeader p {
-        font-size: 2vw;
+        font-size: 3vw;
         margin: auto 50px 0px 50px;
         padding-top: 50px;
     }
     
     .infoHeader h1 {
-        font-size: 6vw;
-        margin: auto 50px 20px 50px;
+        font-size: 7vw;
+        margin: auto 50px 40px 50px;
         
     }
 }

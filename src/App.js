@@ -3,6 +3,7 @@ import "./index.css";
 import Info from "./components/Info";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
+import LandingBanner from "./components/LandingBanner";
 
 export default class App extends React.Component {
 
@@ -11,6 +12,7 @@ export default class App extends React.Component {
     return (
       <React.Fragment>
           <Landing />
+          <LandingBanner />
           <Info />
           <Projects />
       </React.Fragment>
