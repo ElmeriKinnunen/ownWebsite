@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-
-.component {
-    height: 100%;
-    width: 100%;
-}
   
 /* ------------LANDING SECTION------------- */
 
@@ -105,7 +100,8 @@
 /* -----------PROJECTS SECTION------------- */
 
   .component.projects {
-    background-color: rgb(255, 255, 255);;
+    
+    height: 50vh;
 }
 
 .component.projects h1 {

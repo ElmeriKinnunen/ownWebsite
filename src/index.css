@@ -2,7 +2,6 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 h2 {
@@ -17,14 +16,4 @@ h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-}
-
-.pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
-  margin-right: 50px;
-}
-
-@media (max-width: 768px) {
-  .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
-      margin-right: 5px;
-  }
 }
