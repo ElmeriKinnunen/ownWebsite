@@ -4,6 +4,5 @@ First version will be online on 2020. I'll add my projects to blog site and phot
 
 First version/front-end made with React. 
 
-Current status:
 
-<iframe src="https://giphy.com/embed/alZBVjU2pFMGA2UbUH" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/alZBVjU2pFMGA2UbUH">via GIPHY</a></p>
+![Current status:](https://media.giphy.com/media/alZBVjU2pFMGA2UbUH/giphy.gif)
