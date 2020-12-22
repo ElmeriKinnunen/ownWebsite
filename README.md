@@ -5,4 +5,4 @@ First version will be online on 2020. I'll add my projects to blog site and phot
 First version/front-end made with React. 
 
 Current status:
-<img src="https://media.giphy.com/media/alZBVjU2pFMGA2UbUH/giphy.gif" />
+<img src="https://giphy.com/gifs/alZBVjU2pFMGA2UbUH/html5" />
